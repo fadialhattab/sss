@@ -11,7 +11,7 @@ import Hair from './pages/hair';
 import Nail from './pages/Nail';
 import Makeup from './pages/Makeup';
 import { Footer } from './components/Footer';
-import Sabga from './pages/sabga';
+import Sabga from './pages/Sabga';
 import Proteen from './pages/Proteen';
 import AddCardForm from './components/AddCardForm';
 function App() {
