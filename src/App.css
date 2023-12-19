@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color:#4e1e55 ;
+    
+}
+body{font-family: 'outfit',sans-serif;
+     color: white;
+     
+}
+
+p {font-size: 1.6rem;}
+
+h1 {font-size: 1.5rem;}
+
+.app{
+    
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(0, 0, 0, 0.5);
+    color: #fff;
+
+}
+
+.app .search{
+    text-align: center;
+    padding: 1rem;
+} 
+.app input{
+    padding: .7rem 1.5rem;
+    font-size: 1.2rem;
+    border-radius: 25px;
+    border: 1px solid rgba(255,255,255,0.8);
+    background: rgba(255,255,255,0.1);
+    color: #f8f8f8;
+    text-align: center;
+}   
+::placeholder{
+    color: white;
+    text-align: center;
+}
+.container{
+    max-width: 100%;
+    height: 80vh;
+    margin: auto;
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.app .top{
+    width: 80%;
+    margin: 1rem auto;
+}
+.app .description{
+    position: relative;
+    right: -90%;
+    bottom: 10%;
+    transform-origin: 0 0;
+    transform: rotate(269deg);
+}
+
+.app .bottom{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 100%;
+    margin: 1rem auto;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0.2);
+}
+
+
+#header1,#nav1{
+    background-color: #fefeff00;
+    justify-content: center;
+    margin-top:  50px;
+    
+   
+}
+#nav1{
+    background-color: rgba(0, 128, 68, 0);
+    width: 55%;
+    padding: 15px 20px ;
+    box-shadow: 0 0 8px#e2dae2;
+    text-align: center;
+    margin-left: 22%;
+    border-radius: 10px;
+    
+}
+#nav1 h1{
+    background-color: #35143500;
+    display: inline-block;
+}
+.nav2{
+    margin-right: 50px;
+    color:azure ;
+    
+    
+}
+
+.link1{
+    text-decoration: none;
+    background-color: #34495e00;
+}
+#salons{
+    font-size: 300px;
+    margin: 20px;
+    text-align: center;
+}
+#footer0{
+    text-align: center;
+    margin-bottom: 0px;
+    padding: 10px;
+}
+#footer1{
+    margin-top: 60px;
+}
+
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    border-radius: 10px;
+    width: 500px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 1);
+    margin: 20px auto;
+    justify-content: center;
+
+    }
+
+
+    
+.login-form h1 {
+    color: #ffffff;
+    margin-bottom: 20px;
+     text-align: center;
+    }
+    
+.input-group {
+    margin-bottom: 15px;
+    }
+    
+.input-group label {
+    color: #95a5a6;
+    display: block;
+    }
+    
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #34495e;
+    border-radius: 5px;
+    background: transparent;
+    color: white;
+    }
+    
+.social-login {
+    text-align: center;
+     margin-top: 20px;
+    }
+
+#signup{
+    margin-top: 60px;
+    width: 231px;
+    text-align: center;
+}    
+
+.About-container{
+    display: flex;
+     padding: 50px;
+     border-radius: 10px;
+     width: 500px;
+    box-shadow: 0 4px 10px rgba(131, 87, 127, 0.5);
+    justify-content: center;
+    margin-left: 30%;
+    margin-top: 60px;
+    margin-bottom: 100px;
+
+
+}
+
+#services{
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+#conect{
+    width: 50%;
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    border: 1px solid #34495e;
+    border-radius: 5px;
+    background: transparent;
+    color: white;
+    text-align: center;
+    margin-left: 23%;
+   
+}
+.card2{
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    display: flex;
+    
+    
+
+}
+.card2 h1{
+    text-align: center;
+}
+.add-service-form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+label {
+    margin-bottom: 8px;
+  }
+  
+input {
+    padding: 8px;
+    margin-bottom: 16px;
+  }
+  
+button {
+    background-color: #351435;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    
+  }
+  
+button:hover {
+    background-color: #88728a;
+    
+
+  }
+#form33{
+    display: flex;
+    margin-top: 70px;
+
+} 
+#form33 h2{
+    display: block;
+    margin-bottom: 30px;
+    background-color: #88728a00;
+    
+}
+#form33 form{ 
+    margin-bottom: 100px;
+    
+    width: 50%;
+    justify-content: center;
+    margin-left: 350px;
+    box-shadow: 0 0 10px white;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #cccccc25;
+    
+
+
+} 
+#form33 input,#form33 label{ 
+    background-color: #88728a13;
+    border-radius: 10px;
+
+}
+#addservicecss  {
+  width: 400px;
+  height: 450px;
+  background-color: #fbf8fc7c;
+  border-radius: 15px;
+  padding: 30px;
+  margin: 20px;
+  
+
+}
+
+#addservicecss img{
+    width: 200px;
+    
+
+}
+#newservice{
+    display:flex ;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+#addservicecss p{
+    background-color: #cccccc00;
+    margin-bottom:10px ;
+
+}
+
+.img{
+    height: 220px;
+    width: 200px;
+    border-radius: 8px;
+    box-shadow: 0 0 6 rgb(161, 119, 158);
+    order: -1;
+  }
+  .card2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  
+.salon-name,.price {
+    margin: 5px 0;
+  }

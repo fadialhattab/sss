@@ -1,0 +1,17 @@
+#services{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    flex:1;
+    background-color: rgb(104, 140, 175);
+    width: 200px;
+    height: 250px;
+    margin: 30px;
+    align-items: center;
+    
+
+}
+h1 {
+    background-color: rgba(250, 235, 215, 0);
+}
